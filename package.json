@@ -1,0 +1,11 @@
+{
+  "name": "pi-decision-prior",
+  "version": "0.1.0",
+  "description": "Probabilistic-prior decision assistant for pi: consult an external prior model for option probability distributions, with a debug mode that measures its actual contribution (tested with the jev instance)",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
