@@ -2,6 +2,12 @@
 
 > 最近jev比较热门，我试着把 jev 这个高效判断模型接进 pi 的 CoT，看能不能让 coding harness 提速——结果是机制跑通了，决策质量也有收益，但我的测试里它既没有变快，推理消耗也没有比关闭 jev 时更少。
 
+### 使用效果
+
+![使用效果](assets/demo.png)
+
+pi 会话中的实拍：`prior_consult` 的每次咨询会在会话里渲染出概率条、top 选择与 confidence / margin / entropy，并作为可审计的决策记录保存。
+
 [![中文](https://img.shields.io/badge/docs-简体中文-red)](README.md) [![English](https://img.shields.io/badge/docs-English-blue)](README_EN.md)
 
 *A Probabilistic-Prior Decision Assistant for Coding Agents: Design and Empirical Study*

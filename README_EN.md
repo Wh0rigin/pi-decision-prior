@@ -2,6 +2,12 @@
 
 > **TL;DR**: I tried plugging jev, a more efficient judgment model, into the CoT of pi to see if it would speed up the harness — the mechanism works and decision-quality gains are real, but in my tests it didn't get faster, and reasoning consumption was not lower than with jev off.
 
+### Runtime Demo
+
+![runtime demo](assets/demo.png)
+
+A live pi session: every `prior_consult` call renders probability bars, the top choice and confidence / margin / entropy in the transcript, and is kept as an auditable decision record.
+
 [![中文](https://img.shields.io/badge/docs-简体中文-red)](README.md) [![English](https://img.shields.io/badge/docs-English-blue)](README_EN.md)
 
 *面向编码代理的概率先验决策辅助：设计与实证*（Chinese version: [README.md](README.md)）
